@@ -1,0 +1,10 @@
+polygonAPI = {
+    'api_key' : 'https://api.polygon.io/v1/open-close/AAPL/2020-10-14?adjusted=true&apiKey=xQpCFLsVH5XDFMEee3QF2Bh3AEa5VkJi'
+    }
+
+postgresql = {'pguser':'alpha',
+          'pgpasswd':'password',
+          'pghost':'localhost',
+          'pgport': 5432,
+          'pgdb': 'alpha'
+         }
