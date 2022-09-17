@@ -1,11 +1,11 @@
 import reference
 import pandas as pd
 
-api = 'xQpCFLsVH5XDFMEee3QF2Bh3AEa5VkJi'
+key = '8Y1nvUm3DsC4y36_ofpn'
 ticker = 'AAPL'
 limit = '10'
 
-api_url : f'https://api.polygon.io/vX/reference/financials?ticker={ticker}&apiKey={api}'
+api_url : f'https://data.nasdaq.com/api/v3/datasets/{ticker}/ORB.csv?api_key={key}'
 
 data = requests.get(api_url).json()
 df = pd.dataframe(data['results'])
